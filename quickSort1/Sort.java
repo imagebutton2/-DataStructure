@@ -1,5 +1,5 @@
-//快速排序  没有优化的版本
-//如果数组近乎有序 快速排序的时间复杂度为O（n^2）
+//快速排序  随机选取一个基准值来避免分组造成的左右两个区间严重不均衡状态,造成分层趋向于O(n)层导致快排退化为O(n^2)
+
 
 public class Sort {
  private static void quickSort(int[] array) {
